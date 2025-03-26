@@ -38,4 +38,7 @@ def get_instagram_hashtag_local(hashtag, max_posts=10):
     return list(post_images)
 
 # Example Usage:
-get_instagram_hashtag_local(hashtag='cat', max_posts=10)
+hashtag = "cat"
+hashtag_images = get_instagram_hashtag_local(hashtag=hashtag, max_posts=10)
+download_images(image_urls=hashtag_images, target_profile=hashtag)
+
