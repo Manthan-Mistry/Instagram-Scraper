@@ -1,5 +1,5 @@
 # Contains code for downloading posts/reels using Instaloader package.
-from utils import get_instagram_links, USERNAME, PASSWORD
+from utils import random, instaloader, get_instagram_links, USERNAME, PASSWORD
 
 # INSTALOADER APPROACH | Works for both posts/reels (BETTER AND FASTER FOR SMALLER SIZE PROFILE):
 def download_instaloader(post_links, target_profile, username, password):
